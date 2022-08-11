@@ -1,0 +1,19 @@
+/* #bd365d */
+#Navbar {
+  background-color: #bd365d;
+  margin: 0;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  background-color: #656f9a;
+  color: white;
+}
+#hero-section {
+  padding: 0.5% 3%;
+
+}
+.registry{
+  padding: 0;
+}
