@@ -1,4 +1,4 @@
-/* #bd365d */
+/* navbar */
 #Navbar {
   background-color: #bd365d;
   margin: 0;
@@ -10,10 +10,44 @@
   background-color: #656f9a;
   color: white;
 }
+
+/* hero-section */
 #hero-section {
   padding: 0.5% 3%;
-
 }
-.registry{
-  padding: 0;
+.image {
+  display: inline;
+}
+.paybill {
+  padding-top: 0.5%;
+}
+
+/* prodcut&search */
+#product {
+  padding: 0.5% 3%;
+}
+.form {
+  display: inline-table;
+}
+
+/* cards */
+#card-list {
+  padding: 0.5% 3%;
+}
+.card-link {
+  text-decoration: none;
+}
+.card {
+  margin: 0% 1.5% 1.5% 0%;
+  display: inline-flex;
+  text-align: center;
+}
+.card-value {
+  text-align: right;
+  color: #51595e;
+}
+
+.title {
+  padding: 2% 5%;
+  text-align: center;
 }
