@@ -27,7 +27,7 @@
   padding: 0.5% 3%;
 }
 .form {
-  display: inline-table;
+  display: inline-grid;
 }
 
 /* cards */
@@ -38,9 +38,9 @@
   text-decoration: none;
 }
 .card {
-  margin: 0% 1.5% 1.5% 0%;
   display: inline-flex;
   text-align: center;
+  margin: 1% 0 1% 0;
 }
 .card-value {
   text-align: right;
