@@ -8,7 +8,22 @@ h2 {
   font-size: 0.8rem;
 }
 
-
+/* Top-bar */
+#Top-bar {
+  background-color: #fff;
+  padding: 1% 3%;
+  font-size: 13px;
+}
+.top-barR {
+  float: right;
+  text-decoration: none;
+  color: #51595e;
+}
+.top-barL {
+  text-decoration: none;
+  color: #515953;
+  padding: 0 1%;
+}
 /* navbar */
 #Navbar {
   background-color: #bd365d;
@@ -40,18 +55,22 @@ h2 {
 .form {
   display: inline-grid;
 }
+.form-control {
+  padding: 3%;
+}
+.form-control2 {
+  padding: 1.5%;
+}
+
 
 /* cards */
-#card-list {
-  padding: 0.5% 3%;
-}
 .card-link {
   text-decoration: none;
 }
 .card {
   display: inline-flex;
   text-align: center;
-  margin: 1% 0 1% 0;
+  margin: 1% 0;
 }
 .card-value {
   text-align: right;
@@ -64,6 +83,7 @@ h2 {
   font-size: 1.7rem;
 }
 
+
 /* merchant-button */
 #merchant-button {
 text-align: center;
@@ -73,6 +93,7 @@ padding: 3% 7%;
 .btn {
   background-color: #bd365d;
   padding: 0.5% 3%;
+  border: 0;
   color: white;
 }
 
@@ -104,4 +125,11 @@ padding: 2% 3%;
 }
 .Copyright {
   padding-top: 2%;
+}
+
+/* media querry */
+@media (max-width: 1028px) {
+  #Top-bar {
+    display: none;
+  }
 }
