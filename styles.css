@@ -10,7 +10,6 @@ h2 {
 
 /* Top-bar */
 #Top-bar {
-  background-color: #fff;
   padding: 1% 3%;
   font-size: 13px;
 }
@@ -37,6 +36,28 @@ h2 {
   color: white;
 }
 
+.country{
+  color: #51595e;
+  border: none;
+}
+
+.dropdown {
+  display: inline;
+}
+
+.dropdown-item {
+  color: #f8f8ff;
+  background-color: #656f9a;
+}
+.dropdown-menu {
+  padding: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #bd365d;
+  color: white;
+}
+
 /* hero-section */
 #hero-section {
   padding: 0.5% 3%;
@@ -59,7 +80,20 @@ h2 {
   padding: 3%;
 }
 .form-control2 {
-  padding: 1.5%;
+  padding: 1.5% 5%;
+}
+.fa-sharp {
+text-align: right;
+position: absolute;
+padding-left: 400px;
+padding-top: 20px;
+}
+.fa-sharpG {
+position: absolute;
+padding: 20px 10px;
+}
+.Buy {
+  color: #bd365d;
 }
 
 
@@ -90,7 +124,7 @@ text-align: center;
 padding: 3% 7%;
 
 }
-.btn {
+.merchant-btn {
   background-color: #bd365d;
   padding: 0.5% 3%;
   border: 0;
@@ -116,9 +150,13 @@ padding: 2% 3%;
   margin: 1%;
   padding: 1.5%;
 }
-#email {
-  width: 70%;
+
+.btn {
+  background-color: #bd365d;
+  color: white;
+  border-left: 0;
 }
+
 .Follow{
   padding: 2% 0;
 
@@ -132,4 +170,12 @@ padding: 2% 3%;
   #Top-bar {
     display: none;
   }
+  .banners {
+    display: none;
+  }
 }
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}

@@ -16,25 +16,26 @@
 
 <body>
 
-<!-- Top-Bar -->
-<section id="Top-bar">
+  <!-- Top-Bar -->
+  <section id="Top-bar">
 
-    <a class="top-barL" href="#">
-     <img src="images/ng.png" style="height: 14px; width: auto; margin-top: -3px"> Nigeria</a></a></li>
-      <img src="images/ng.png" style="height: 14px; width: auto; margin-top: -3px"> Nigeria</a></a></li>
-  </a>
+    <div class="dropdown">
+      <button class="country btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="images/ng.png" style="height: 14px; width: auto; margin-top: -3px"> Nigeria
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#"><img src="images/ng.png" style="height: 14px; width: auto; margin-top: -3px"> Nigeria</a></li>
+        <li><a class="dropdown-item" href="#"><img src="images/kenya.png" style="height: 14px; width: auto; margin-top: -3px"> Kenya</a></li>
+      </ul>
+    </div>
+
     <a class="top-barL" href="#">08102268934</a>
     <a class="top-barR" href="#">Login/Sign Up</a>
 
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Regular link</a></li>
-      <li><a class="dropdown-item active" href="#" aria-current="true">Active link</a></li>
-      <li><a class="dropdown-item" href="#">Another link</a></li>
-    </ul>
-</section>
+  </section>
 
 
-<!-- NAVBAR -->
+  <!-- NAVBAR -->
   <section id="Navbar">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg ">
@@ -51,7 +52,26 @@
               <a class="nav-link" href="#">Pay Bills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Swap Voucher</a></li>
+                      <li><a class="dropdown-item" href="#">Check Voucher Balance</a></li>
+                      <li><a class="dropdown-item" href="#">Voucher History</a></li>
+                      <li><a class="dropdown-item" href="#">Merge Voucher Codes</a></li>
+                      <li><a class="dropdown-item" href="#">Split Voucher Codes</a></li>
+                      <li><a class="dropdown-item" href="#">Reactive Vouchers</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Wedding Registry</a>
@@ -84,7 +104,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="banners col-lg-4">
         <div class="col-lg-12">
           <img src="images/registrybanner.png" height="175" width="100%" alt="">
         </div>
@@ -125,15 +145,15 @@
     </div>
 
     <div class="form col-lg-7">
-        <input type="text" class="form-control2 input-lg" name="" placeholder="Search For Merchants">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="form-control2 input-lg" name="search" placeholder="Search For Merchants">
+      <i class="fa-sharpG fa-solid fa-magnifying-glass"></i>
     </div>
   </section>
 
   <!-- card-list -->
   <section id="card-list">
     <h1 class="title">
-      <span>Buy Gift cards</span> For the Best Store in Nigeria
+      <span class="Buy">Buy Gift cards</span> For the Best Store in Nigeria
     </h1>
 
     <div class="container">
@@ -193,237 +213,240 @@
             </div>
           </a>
         </div>
-    </div>
-
-    <div class="row">
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
       </div>
 
-    </div>
+      <div class="row">
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="90%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
 
-    <div class="row">
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
-      </div>
-      <div class="card col-lg-3">
-        <a class="card-link" href="#">
-          <div class="card-value">From ₦50000</div>
-          <img class="pin" src="images/pin.png" alt="">
-          <div class="card-title">Transatlantic Travels</div>
-          <div class="card-image">
-            <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
-          </div>
-          <div class="card-caption">
-            <p> Your satisfaction, our guarantee</p>
-          </div>
-        </a>
       </div>
 
-    </div>
+      <div class="row">
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+        <div class="card col-lg-3">
+          <a class="card-link" href="#">
+            <div class="card-value">From ₦50000</div>
+            <img class="pin" src="images/pin.png" alt="">
+            <div class="card-title">Transatlantic Travels</div>
+            <div class="card-image">
+              <img src="https://cms.suregifts.com.ng/temp/tranatlantic.jpg" alt="" width="100%">
+            </div>
+            <div class="card-caption">
+              <p> Your satisfaction, our guarantee</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
 
   </section>
 
   <section id="merchant-button">
-    <button type="button" class="btn btn-lg">See All Merchants</button>
+    <button type="button" class="merchant-btn btn btn-lg">See All Merchants</button>
 
   </section>
 
   <section id="contact">
 
-      <div class="contact-details col-lg-2">
-        <h1>Quick Links</h1>
-        <h2>About Us</h2>
-        <h2>Contact Us</h2>
-        <h2>My Account</h2>
-        <h2>Order History</h2>
-        <h2>Merchant Locations</h2>
-        <h2>Valentines Day 2019</h2>
+    <div class="contact-details col-lg-2">
+      <h1>Quick Links</h1>
+      <h2>About Us</h2>
+      <h2>Contact Us</h2>
+      <h2>My Account</h2>
+      <h2>Order History</h2>
+      <h2>Merchant Locations</h2>
+      <h2>Valentines Day 2019</h2>
+    </div>
+
+    <div class="contact-details col-lg-2">
+      <h1>Resources</h1>
+      <h2>Become a Merchant</h2>
+      <h2>Suregifts Business</h2>
+      <h2>How to Use</h2>
+      <h2>Terms and Conditions</h2>
+      <h2>Wedding Registry</h2>
+      <h2>Blog</h2>
+      <h2>Become a Sales Pro</h2>
+      <h2>Career</h2>
+    </div>
+
+    <div class="contact-details col-lg-2">
+      <h1>Contact</h1>
+      <h2>08102268934</h2>
+      <h2>stelisstelico@gmail.com</h2>
+      <h2>Mondays to Fridays (9am to 8pm)</h2>
+      <h2>Weekend and Public Holidays (10am-5pm)</h2>
+      <div class="Follow">
+        <h1>Follow Us</h1>
+      </div>
+      <div class="Follow">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
       </div>
 
-      <div class="contact-details col-lg-2">
-        <h1>Resources</h1>
-        <h2>Become a Merchant</h2>
-        <h2>Suregifts Business</h2>
-        <h2>How to Use</h2>
-        <h2>Terms and Conditions</h2>
-        <h2>Wedding Registry</h2>
-        <h2>Blog</h2>
-        <h2>Become a Sales Pro</h2>
-        <h2>Career</h2>
-      </div>
+    </div>
 
-      <div class="contact-details col-lg-2">
-        <h1>Contact</h1>
-        <h2>08102268934</h2>
-        <h2>stelisstelico@gmail.com</h2>
-        <h2>Mondays to Fridays (9am to 8pm)</h2>
-        <h2>Weekend and Public Holidays (10am-5pm)</h2>
-        <div class="Follow">
-          <h1>Follow Us</h1>
+    <div class="newsletter col-lg-5">
+      <div class="newsletter-sub">
+        <h1>Sign up for newsletters</h1>
+        <div class="col-sm-8">
+          <input name="email" type="email" class="form-control" placeholder="Enter Your Email Address">
         </div>
-        <div class="Follow">
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-sharp fa-solid fa-m"></i>
-        </div>
-
+        <button type="submit" class="btn btn-primary btn-block">Subscribe <i class="fa fa-envelope"></i></button>
       </div>
+    </div>
 
-      <div class="newsletter col-lg-5">
-          <div class="newsletter-sub">
-            <h1>Sign up for newsletters</h1>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
-            <button type="submit" class="btn">Subscribe <i class="fa fa-envelope"></i></button>
-          </div>
-      </div>
 
-      <div class="Copyright">
-        <h2>@Copyright 2015 by Surebids Limited</h2>
 
-      </div>
+    <div class="Copyright">
+      <h2>@Copyright 2015 by Surebids Limited</h2>
+
+    </div>
 
   </section>
 
