@@ -159,7 +159,8 @@ padding: 2% 3%;
 .btn {
   background-color: #bd365d;
   color: white;
-  border-left: 0;
+  position: relative;
+  right: 5px;
 }
 
 .Follow{
